@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zhongkun Wang</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      line-height: 1.6;
+      color: #222;
+      background: #f7f7f7;
+    }
+
+    .container {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 40px 24px;
+      background: #fff;
+      min-height: 100vh;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 28px;
+      margin-bottom: 30px;
+    }
+
+    .avatar {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      background: #e9eef5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 42px;
+      color: #4b6584;
+      flex-shrink: 0;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 34px;
+      font-weight: 700;
+    }
+
+    .subtitle {
+      margin: 8px 0 12px;
+      color: #555;
+      font-size: 17px;
+    }
+
+    .links a {
+      margin-right: 14px;
+      color: #0056b3;
+      text-decoration: none;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      margin-bottom: 34px;
+    }
+
+    h2 {
+      font-size: 23px;
+      border-bottom: 1px solid #e0e0e0;
+      padding-bottom: 6px;
+      margin-bottom: 14px;
+      color: #1f3a5f;
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .pub-title {
+      font-weight: 600;
+    }
+
+    .project-title {
+      font-weight: 600;
+      color: #222;
+    }
+
+    .note {
+      color: #666;
+      font-size: 15px;
+    }
+
+    footer {
+      margin-top: 50px;
+      padding-top: 18px;
+      border-top: 1px solid #ddd;
+      color: #777;
+      font-size: 14px;
+    }
+
+    @media (max-width: 650px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+
+      .avatar {
+        width: 110px;
+        height: 110px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar">ZW</div>
+
+      <div>
+        <h1>Zhongkun Wang 王仲琨</h1>
+        <div class="subtitle">
+          M.Eng. Student in Computer Technology<br />
+          Shenzhen University, China
+        </div>
+
+        <div class="links">
+          <a href="mailto:ylwzk123@gmail.com">Email</a>
+          <a href="https://github.com/ykqaz" target="_blank">GitHub</a>
+          <!-- 如果你以后有 Google Scholar，把下面这行取消注释并替换链接 -->
+          <!-- <a href="你的Google Scholar链接" target="_blank">Google Scholar</a> -->
+          <!-- 如果你上传了公开版CV到仓库 assets/cv.pdf，把下面这行取消注释 -->
+          <!-- <a href="assets/cv.pdf" target="_blank">CV</a> -->
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I am currently a master's student in Computer Technology at Shenzhen University.
+        My research focuses on federated learning, edge intelligence, mobile edge computing,
+        and efficient distributed AI systems. I am particularly interested in decentralized
+        federated learning, energy-efficient client selection, resource allocation, and
+        system optimization for resource-constrained edge devices.
+      </p>
+      <p>
+        I received my B.Eng. degree in Computer Science and Technology from the University
+        of Science and Technology Beijing.
+      </p>
+    </section>
+
+    <section>
+      <h2>Research Interests</h2>
+      <ul>
+        <li>Federated Learning</li>
+        <li>Decentralized Federated Learning</li>
+        <li>Mobile Edge Computing</li>
+        <li>Edge Intelligence</li>
+        <li>Energy-Efficient AI Systems</li>
+        <li>Resource Allocation for Distributed Learning</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>News</h2>
+      <ul>
+        <li>
+          <strong>2026:</strong> One paper accepted by
+          <em>IEEE Transactions on Mobile Computing</em>.
+        </li>
+        <li>
+          <strong>2026:</strong> Our paper
+          <em>Fast-DFL: Flexible Client Switching for Bandwidth-Constrained Hierarchical Decentralized Federated Learning</em>
+          is accepted by IEEE ICDCS 2026.
+        </li>
+      </ul>
+      <p class="note">
+        Note: If the ICDCS status on your official CV is still not updated, change "is accepted by" to "is under review at".
+      </p>
+    </section>
+
+    <section>
+      <h2>Publications</h2>
+      <ol>
+        <li>
+          H. Yang, <strong>Z. Wang</strong>, and L. Cui,
+          <span class="pub-title">
+            "Energy-efficient federated learning in mobile edge computing via fine-grained energy planning client selection,"
+          </span>
+          <em>IEEE Transactions on Mobile Computing</em>, 2026.
+          <strong>[Accepted]</strong>
+        </li>
+
+        <li>
+          <strong>Z. Wang</strong>, H. Yang, and L. Cui,
+          <span class="pub-title">
+            "Fast-DFL: Flexible client switching for bandwidth-constrained hierarchical decentralized federated learning,"
+          </span>
+          <em>IEEE International Conference on Distributed Computing Systems</em>，ICDCS 2026.
+          <strong>[To appear]</strong>
+        </li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Research Experience</h2>
+
+      <p>
+        <span class="project-title">
+          Energy-Efficient Federated Learning in Mobile Edge Computing via Fine-Grained Energy Planning Client Selection
+        </span><br />
+        Guangdong Laboratory of Artificial Intelligence and Digital Economy & Shenzhen University, 2025–2026
+      </p>
+      <ul>
+        <li>
+          Proposed an energy-aware client selection strategy for federated learning in mobile edge computing environments.
+        </li>
+        <li>
+          Dynamically adjusted local training workloads according to residual device energy.
+        </li>
+        <li>
+          Estimated transmission energy consumption using historical channel information.
+        </li>
+      </ul>
+
+      <p>
+        <span class="project-title">
+          Fast-DFL: Flexible Client Switching for Bandwidth-Constrained Hierarchical Decentralized Federated Learning
+        </span><br />
+        Master's thesis research, Shenzhen University, 2023–present
+      </p>
+      <ul>
+        <li>
+          Designed an asynchronous two-level decentralized federated learning framework to reduce idle waiting time and staleness.
+        </li>
+        <li>
+          Developed a proactive server selection mechanism based on real-time channel conditions.
+        </li>
+        <li>
+          Applied priority-based bandwidth allocation and extra local training to improve system efficiency.
+        </li>
+        <li>
+          Introduced a threshold-based push-pull consensus protocol to accelerate knowledge propagation among edge servers.
+        </li>
+      </ul>
+
+      <p>
+        <span class="project-title">
+          Federated Learning in Dynamic Mobile Scenarios
+        </span><br />
+        Master's thesis research, Shenzhen University, 2023–present
+      </p>
+      <ul>
+        <li>
+          Studied federated learning under client mobility and limited energy constraints.
+        </li>
+        <li>
+          Modeled user mobility using real-world datasets and transition matrices.
+        </li>
+        <li>
+          Designed mobility-aware server communication thresholds and energy-aware client selection mechanisms.
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <strong>Shenzhen University</strong>, China<br />
+          M.Eng. in Computer Technology, Sep. 2023 – Jun. 2026
+        </li>
+        <li>
+          <strong>University of Science and Technology Beijing</strong>, China<br />
+          B.Eng. in Computer Science and Technology, Sep. 2018 – Jun. 2022
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Awards</h2>
+      <ul>
+        <li>Second-Class Scholarship, Shenzhen University, 2023–2025</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Programming Languages:</strong> Python, C++</li>
+        <li><strong>Frameworks and Libraries:</strong> PyTorch, NumPy, Matplotlib</li>
+        <li><strong>Tools:</strong> LaTeX, Qt, PCL, PyCharm, Visual Studio, VS Code, Microsoft Office</li>
+      </ul>
+    </section>
+
+    <footer>
+      Last updated: July 2026. © Zhongkun Wang.
+    </footer>
+  </div>
+</body>
+</html>
